@@ -1,4 +1,4 @@
-const libs = ['mutationlab.lib', 'mutationlab.web']
+const libs = ['mutationlab.lib', 'mutationlab.web', 'mutationlab.101']
 
 const { NODE_ENV } = process.env
 
