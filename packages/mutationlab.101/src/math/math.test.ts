@@ -24,8 +24,8 @@ describe(`
 
 describe.skip(`
   100% for both, 
-  this shows the importance of your 
-  testing with context
+  this shows the importance of 
+  testing with correct context
 `, () => {
   test('add', () => {
     expect(add(2, 1)).toBe(3)
