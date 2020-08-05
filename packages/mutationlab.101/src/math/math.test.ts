@@ -1,7 +1,7 @@
 import { add, subtract, multiply, divide } from './math'
 
 describe(`
-  This will have 100% code coverage but mutation coverage is 0%, 
+  This will have 100% code coverage but mutation coverage is 33.33%, 
   just because tests doesnt provide correct samples, 
   and not good enough to prove the functionality,
 `, () => {
