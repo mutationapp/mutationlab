@@ -19,6 +19,10 @@ module.exports = {
     config: require('./jest.config.js'),
     enableFindRelatedTests: true,
   },
-  mutator: 'typescript',
+  logLevel: 'debug',
+  mutator: {
+    name: 'typescript',
+  },
   tempDirName: `.stryker-tmp-${page}`,
+  tsconfigFile: 'jest.tsconfig.json',
 }

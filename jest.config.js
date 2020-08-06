@@ -9,13 +9,13 @@ module.exports = {
   transform: {
     '^.+\\.(ts|tsx)$': 'ts-jest',
   },
-  // testMatch: ['**/__tests__/*.(ts|tsx)'],
   setupFiles: [`${jestDir}/jest.setup.js`],
   testPathIgnorePatterns: ['./.next/', './node_modules/'],
   snapshotSerializers: ['enzyme-to-json/serializer'],
   globals: {
     'ts-jest': {
       tsConfig: `${jestDir}/jest.tsconfig.json`,
+      isolatedModules: true,
     },
   },
 }
