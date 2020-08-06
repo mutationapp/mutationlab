@@ -1,5 +1,5 @@
 /**
-  This file will have 100% code coverage but mutation coverage is 50%, 
+  This module have 100% code coverage but mutation coverage is 50%, 
   just because tests doesnt provide correct samples, 
   and not good enough to prove the functionality,
   solution here https://github.com/mutationapp/mutationlab/blob/101/courses/mutationlab.101/src/math/math.test.ts
