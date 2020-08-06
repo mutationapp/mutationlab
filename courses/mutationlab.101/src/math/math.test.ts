@@ -1,9 +1,7 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
 import { add, subtract, multiply, divide } from './math'
-// @ts-nocheck
 
 describe(`
-  This will have 100% code coverage but mutation coverage is 33.33%, 
+  This will have 100% code coverage but mutation coverage is 50%, 
   just because tests doesnt provide correct samples, 
   and not good enough to prove the functionality,
 `, () => {
@@ -42,7 +40,6 @@ describe.skip(`
   })
 
   test('divide', () => {
-    // @ts-ignore
-    expect(divide(4, 2, 3)).toBe(2)
+    expect(divide(4, 2)).toBe(2)
   })
 })
