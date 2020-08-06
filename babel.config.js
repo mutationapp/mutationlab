@@ -1,6 +1,7 @@
 const libs = ['mutationlab.lib', 'mutationlab.web', 'mutationlab.101']
 
 const { NODE_ENV } = process.env
+console.log(`NODE_ENV`, NODE_ENV)
 
 const alias = libs.reduce((acc, lib) => {
   return {
