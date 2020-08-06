@@ -1,8 +1,9 @@
 import { add, subtract, multiply, divide } from './math'
 
 describe(`
-  This will have 100% code coverage but mutation coverage is 50%, 
-  just because tests doesnt provide correct samples, 
+  c(▀̿Ĺ̯▀̿ ̿).
+  This module has 100% code coverage but mutation coverage is 50%, 
+  just because tests doesn't provide correct context, 
   and not good enough to prove the functionality,
 `, () => {
   test('add', () => {
