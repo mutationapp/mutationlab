@@ -24,7 +24,6 @@ describe.skip(`
 })
 
 describe(`
-  HI,
   100% for both, 
   this shows the importance of 
   testing with correct context
