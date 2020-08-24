@@ -25,4 +25,7 @@ module.exports = {
   },
   tempDirName: `.stryker-tmp-${page}`,
   tsconfigFile: 'jest.tsconfig.json',
+  htmlReporter: {
+    baseDir: `reports/mutation/html/${page}`,
+  },
 }
