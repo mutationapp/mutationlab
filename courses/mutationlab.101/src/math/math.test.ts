@@ -1,6 +1,6 @@
 import { add, subtract, multiply, divide } from './math'
 
-describe(`
+describe.skip(`
   c(▀̿Ĺ̯▀̿ ̿).
   This module has 100% code coverage but mutation coverage is 50%, 
   just because tests doesn't provide correct context, 
@@ -23,7 +23,7 @@ describe(`
   })
 })
 
-describe.skip(`
+describe(`
   100% for both, 
   this shows the importance of 
   testing with correct context
